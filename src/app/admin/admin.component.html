@@ -1,0 +1,8 @@
+<a href="/new" >Add New Picture</a>
+<a href="/edit/:id">Edit Picture</a>
+
+<br>
+
+<p *ngFor="let pic of pics">
+    <a [routerLink]="['/edit/', pic._id]">{{pic.name}}{{pic._id}}</a>
+</p>

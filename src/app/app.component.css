@@ -1,0 +1,21 @@
+nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav {
+    margin-bottom: 3rem;
+    margin-top: .5rem;
+    border-bottom: 1px solid black;
+}
+
+.pinell {
+    font-size: 1.5rem;
+}

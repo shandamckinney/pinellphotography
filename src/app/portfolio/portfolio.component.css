@@ -1,0 +1,22 @@
+img{
+    width: 36vw;
+    height: 42vh;
+    
+}
+
+p{
+    position: relative;
+    z-index: 1;
+    top: -10.6rem;
+    left: 14rem;
+    color: white;
+    font-weight: bold;
+}
+
+.left{
+    margin-left: 5rem;
+}
+
+.left p{
+    left: 18rem;
+}

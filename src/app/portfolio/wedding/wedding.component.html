@@ -1,0 +1,7 @@
+<div *ngIf="!!weddingPictures" class="container">
+    <div class="row">
+        <div *ngFor="let pic of weddingPictures">
+            <img [src]="pic.path" alt="">
+        </div>
+    </div>
+</div>
