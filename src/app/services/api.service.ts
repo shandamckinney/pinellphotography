@@ -8,7 +8,7 @@ import { Picture } from './../models/Picture';
   providedIn: 'root'
 })
 export class ApiService {
-  baseUri:string = 'http://pinell-photograhy.herokuapp.com/api';
+  baseUri:string = 'https://pinell-photograhy.herokuapp.com/api';
   headers = new HttpHeaders().set('Content-Type', 'application/json');
 
   constructor(private http: HttpClient) { }
