@@ -24,7 +24,7 @@ export class ApiService {
 
   // Get all employees
   getEmployees() {
-    return this.http.get(`${this.baseUri}`);
+    return this.http.get(`${this.baseUri}/read`);
   }
 
   // Get employee
